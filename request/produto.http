@@ -1,0 +1,35 @@
+GET HTTP://localhost:8081/api/produtos
+
+###
+
+GET HTTP://localhost:8081/api/produtos/1
+
+###
+
+POST HTTP://localhost:8081/api/produtos
+Content-Type: application/json
+
+{
+    "categoria": "Moda",
+    "descricao": "Vestido bordado com pérolas",
+    "valor": 240,
+    "observacao": "Vestido bordado com pérolas",
+    "quantidade": 1
+}
+
+###
+
+PUT HTTP://localhost:8081/api/produtos/2
+Content-Type: application/json
+
+{
+    "categoria": "",
+    "descricao": "",
+    "valor": ,
+    "observacao": "",
+    "quantidade":
+}
+
+###
+
+DELETE HTTP://localhost:8081/api/produtos/6

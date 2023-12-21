@@ -1,0 +1,37 @@
+GET HTTP://localhost:8081/api/enderecos
+
+###
+
+GET HTTP://localhost:8081/api/enderecos/2
+
+###
+
+POST HTTP://localhost:8081/api/enderecos
+Content-Type: application/json
+
+{
+    "bairro": "Barra da Tijuca",
+    "cep": 28176010,
+    "cidade": "Rio de Janeiro",
+    "rua": "Santos Dumont",
+    "numero": 981,
+    "estado": "Rio de Janeiro"
+}
+
+###
+
+PUT HTTP://localhost:8081/api/enderecos/2
+Content-Type: application/json
+
+{
+    "bairro": "",
+    "cep": ,
+    "cidade": "",
+    "rua": "",
+    "numero": ,
+    "estado": ""
+}
+
+###
+
+DELETE HTTP://localhost:8081/api/enderecos/2

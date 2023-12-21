@@ -1,0 +1,33 @@
+GET HTTP://localhost:8081/api/clientes
+
+###
+
+GET HTTP://localhost:8081/api/clientes/2
+
+###
+
+POST HTTP://localhost:8081/api/clientes
+Content-Type: application/json
+
+{
+    "email": "randrade@gmail.com",
+    "idade": 18,
+    "telefone": 33999958641,
+    "nome": "Rafael Andrade"
+}
+
+###
+
+PUT HTTP://localhost:8081/api/clientes/2
+Content-Type: application/json
+
+{
+   "email": "",
+   "idade": ,
+   "telefone": ,
+   "nome": ""
+}
+
+###
+
+DELETE HTTP://localhost:8081/api/clientes/2
